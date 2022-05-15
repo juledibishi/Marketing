@@ -1,0 +1,45 @@
+.home-style {
+    padding: 50px 150px;
+}
+.marketing-style {
+    font-weight: bolder;
+    font-size: 35px;
+}
+.text-style {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+.dbcp-style {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+.hr {
+    width: 200px;
+    height: 5px;
+    background-color: rgb(100, 100, 100);
+    margin: auto;
+}
+.design {
+    background-color: rgb(226, 226, 226);
+    padding: 30px 10px;
+    text-align: justify;
+}
+.branding {
+    background-color: rgb(172, 175, 175);
+    padding: 30px 10px;
+    text-align: justify;
+}
+.consultation {
+    background-color: rgb(126, 125, 125);
+    padding: 30px 10px;
+    text-align: justify;
+}
+.promises {
+    background-color: rgb(76, 75, 77);
+    padding: 30px 10px;
+    text-align: justify;
+}

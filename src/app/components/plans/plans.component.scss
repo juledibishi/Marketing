@@ -1,0 +1,43 @@
+.text-style-plans {
+    text-align: center;
+}
+
+.bpp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px 150px;
+    text-align: center;
+    grid-gap: 10px;
+}
+.basic {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.pro {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.premium {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.basic-one {
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+.pro-one {
+    padding: 25px;
+    background-color: rgb(156, 155, 155);
+    color: white;
+}
+.button-signUp {
+    padding: 25px;
+    background-color: rgb(203, 207, 207);
+}

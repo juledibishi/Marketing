@@ -1,0 +1,18 @@
+.text-style {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+.hr {
+    width: 200px;
+    height: 5px;
+    background-color: rgb(100, 100, 100);
+    margin: auto;
+}
+.jmj {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px 150px;
+}
