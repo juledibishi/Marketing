@@ -1,25 +1,29 @@
 <header>
 
   <div class="header-up">
-    <div class="hpac">
-      <a href="home">Home</a>
+    <div class="hpac"
+         [routerLink]="'app-home'">
+      <span>Home</span>
     </div>
-    <div class="hpac">
-      <a href="plans">Plans</a>
+    <div class="hpac"
+         [routerLink]="'app-plans'">
+      <span>Plans</span>
     </div>
-    <div class="hpac">
-      <a href="about">About</a>
+    <div class="hpac"
+         [routerLink]="'app-about'">
+      <span>About</span>
     </div>
-    <div class="hpac">
-      <a href="contact">Contact</a>
+    <div class="hpac"
+         [routerLink]="'app-contact'">
+      <span>Contact</span>
     </div>
   </div>
 
 </header>
 
 
-<app-home></app-home>
-<app-plans></app-plans>
-<app-about></app-about>
-<app-contact></app-contact>
 <router-outlet></router-outlet>
+
+<footer>
+
+</footer>

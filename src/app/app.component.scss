@@ -14,14 +14,14 @@ a {
     display: flex;
     align-items: center;
     font-size: 18px;
+    justify-content: center;
 }
-.hpac a {
+.hpac span {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: 5px 150px;
 }
 
-.hpac :hover {
+.hpac:hover {
     background-color: darkgray;
 }
